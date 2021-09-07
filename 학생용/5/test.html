@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0
+        }
+
+        ul {
+            list-style: none
+        }
+
+        .space {
+            clear: both
+        }
+
+        .section {
+            margin-bottom: 50px
+        }
+
+        .logo {
+            float: left
+        }
+
+        .menu {
+            float: right
+        }
+
+        .menu>li {
+            float: left;
+            padding: 0 10px
+        }
+
+        .menu_mobile {
+            display: none
+        }
+
+        .left {
+            width: 50%;
+            height: 100px;
+            background-color: red;
+            float: left
+        }
+
+        .right {
+            width: 50%;
+            height: 100px;
+            background-color: blue;
+            float: right
+        }
+
+        .box1 {
+            width: 33.33%;
+            height: 100px;
+            background-color: palegreen;
+            float: left
+        }
+
+        .box2 {
+            width: 33.33%;
+            height: 100px;
+            background-color: pink;
+            float: left
+        }
+
+        .box3 {
+            width: 33.33%;
+            height: 100px;
+            background-color: plum;
+            float: left
+        }
+
+        .box4 {
+            width: 33.33%;
+            height: 100px;
+            background-color: aqua;
+            float: left
+        }
+
+        .box5 {
+            width: 33.33%;
+            height: 100px;
+            background-color: aquamarine;
+            float: left
+        }
+
+        .box6 {
+            width: 33.33%;
+            height: 100px;
+            background-color: antiquewhite;
+            float: left
+        }
+
+        .box7,
+        .box8,
+        .box9,
+        .box10 {
+            width: 25%;
+            height: 100px;
+            float: left
+        }
+
+        .box7 {
+            background-color: blue
+        }
+
+        .box8 {
+            background-color: palevioletred
+        }
+
+        .box9 {
+            background-color: peru
+        }
+
+        .box10 {
+            background-color: crimson
+        }
+
+        .mainimg {
+            width: 100%;
+            height: 300px
+        }
+
+        .mainimg>img {
+            width: 100%
+        }
+
+        .mainimg_mobile {
+            display: none
+        }
+
+
+        @media (max-width:768px) {
+            .left {
+                width: 30%
+            }
+
+            .right {
+                width: 70%
+            }
+
+            .box7,
+            .box8,
+            .box9,
+            .box10 {
+                width: 50%
+            }
+
+        }
+
+
+        @media (max-width:480px) {
+            .menu {
+                display: none
+            }
+
+            .menu_mobile {
+                display: block;
+                float: right
+            }
+
+            .left {
+                width: 100%;
+                float: none
+            }
+
+            .right {
+                width: 100%;
+                float: none
+            }
+
+            .box1 {
+                width: 100%;
+                float: none
+            }
+
+            .box2 {
+                width: 100%;
+                float: none
+            }
+
+            .box3 {
+                width: 100%;
+                float: none
+            }
+
+            .box4 {
+                width: 100%;
+                float: none
+            }
+
+            .box5 {
+                width: 50%;
+            }
+
+            .box6 {
+                width: 50%;
+            }
+
+            .box7,
+            .box8,
+            .box9,
+            .box10 {
+                width: 100%
+            }
+
+            .mainimg {
+                display: none
+            }
+
+            .mainimg_mobile {
+                display: block
+            }
+
+            .mainimg_mobile>img {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="logo"> <img src="img/logo.png"></div>
+        <ul class="menu">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <div class="space"> </div>
+        </ul>
+        <div class="menu_mobile"><img src="img/gnb_btn.png"> </div>
+        <div class="space"> </div>
+    </div>
+    <div class="section">
+        <div class="left">
+        </div>
+        <div class="right"> </div>
+        <div class="space"> </div>
+    </div>
+    <div class="section">
+        <div class="box1"> </div>
+        <div class="box2"> </div>
+        <div class="box3"> </div>
+        <div class="space"> </div>
+    </div>
+    <div class="section">
+        <div class="box4"> </div>
+        <div class="box5"> </div>
+        <div class="box6"> </div>
+        <div class="space"> </div>
+    </div>
+    <div class="section">
+        <div class="box7"> </div>
+        <div class="box8"> </div>
+        <div class="box9"> </div>
+        <div class="box10"> </div>
+        <div class="space"> </div>
+    </div>
+    <div class="section">
+        <div class="mainimg">
+            <img src="img/business01.jpg">
+        </div>
+        <div class="mainimg_mobile">
+            <img src="img/webtoon.jpg">
+        </div>
+    </div>
+</body></html>

@@ -1,0 +1,92 @@
+html
+<p></p>본문
+<h1></h1> 제목
+<ul>
+ <li></li>
+</ul>
+<ol>
+<li></li>
+</ol> 순서가있는목록
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+<img src="경로" alt="대체설명글">
+
+<table bolder = "1"> : 표
+<tr> 
+ <td></td>:줄
+<td></td> :칸
+</table>
+(colspan : 가로칸 합치기 / rowspan:세로칸 합치기>
+
+
+<a href="경로"></a> : 링크
+
+<iframe> : 지도, 유튜브
+
+-폼태그-
+<input type = "text"> :이름, id
+<" 패스워드> 비밀번호
+파일 - 파일첨부
+이미지 src="이미지경로"
+라디오 :  여러개 버튼중 하나만 선택
+체크박스 체크, 다중선택
+버튼은 버튼
+<textarea cols="50" rows="5"><종료태그> 댓글박스 콜수는 칸수제한 로우스는 줄수제한
+
+<select> :목록상자
+<option>내용 <종료태그<
+</select>
+
+<span> 인라인 요소 공간 분할
+
+-css-
+글자크기 font-size
+글자굵기- font-weight:bold
+글자기울임- font-style:italic
+글자정렬 - text- align:center
+글자높이정렬, 행간- line-height:50px
+수직정렬(img 태그에 지정) -vertical 
+
+[블록박스(div)]
+div 가운데배치 - width 500px; margin 0 auto
+내부여백1(위쪽부터 시게방향) -padding 10px 10px 10px 10px
+내부여백2(앞: 상하, 뒤: 좌우) - padding :10px 20px
+외부여백 - margin
+테두리1 - border-top:1solid #000; border-right:5px
+테두리2- border:1px soid #000
+테두리3- border-width : 1px (굵기)  border-style: 
+
+[배치]
+왼쪽뱇 - float:left;
+오른쪽배치 : float:right
+초기화 - clear : both
+
+배치2
+부모 - position : relative;
+자식- position : absolute
+가운데배치- width 500px ; margin: 0 auto; left:0 ; right 0
+포지션 순서- z-index: 1~999
+
+배경]
+배경반복없앰 - background-repeat:no repeat
+배경 x축 반복 x-reprea y도 똑같
+배경사이즈(비율조절채우기) - background-size:cover
+
+바디 가로 x축 스크롤바없앰 - body{overflow-x:hidden}
+
+class - .  중복가능
+id - # 한페이지 id값은 한번만
+* 모든태그
+상속 (요소모든 자손선택) > .wrap .header
+         (요소자식선택) > .wrap>.header>.menu>li
+
+width : 폭
+height: 높이
+margin 외부여백
+padding: 내부여백
+float : 왼쪽, 오른쪽 배치
+clear : 초기화
+
+bolder 
